@@ -265,7 +265,7 @@ section {
 .container-book {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-top: 3rem;
 }
 
@@ -276,7 +276,8 @@ section {
     max-width: 250px;
     background:#012815;
     float:left;
-    margin: 2rem;
+    margin: 1rem;
+    margin-top: 1rem;
     box-sizing:border-box;
     overflow:hidden;
     box-shadow:0 5px 10px rgba(1, 23, 13, 0.8);
